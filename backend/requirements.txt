@@ -1,0 +1,14 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+PyPDF2==3.0.1
+python-docx==1.1.0
+huggingface-hub==0.19.4
+requests==2.31.0
+pydantic<2
+
+# PyTorch with CUDA 12.4 support for newer GPUs (RTX 5050, etc.)
+# Install with: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+torch>=2.5.0
+transformers>=4.45.0
+accelerate>=0.34.0
